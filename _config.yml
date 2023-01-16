@@ -203,3 +203,7 @@ jekyll-archives:
 
 gems: 
     - jekyll-redirect-from 
+
+include:
+ - _pages
+ - _site
