@@ -4,7 +4,7 @@
   <id>http://localhost:4000/me/</id>
   <title>Vincent</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-01-16T22:43:17+08:00</updated>
+  <updated>2023-01-16T22:51:16+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/me/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/me/posts/lets-do-something-fantastic/" rel="alternate" type="text/html" title="Let's Do Something Fantastic" />
     <published>2023-01-16T00:00:00+08:00</published>
   
-    <updated>2023-01-16T00:00:00+08:00</updated>
+    <updated>2023-01-16T22:45:43+08:00</updated>
   
     <id>http://localhost:4000/me/posts/lets-do-something-fantastic/</id>
     <content src="http://localhost:4000/me/posts/lets-do-something-fantastic/" />
@@ -56,7 +56,7 @@
 Data Technology/Science:  Machine/Deep Learning, NLP, CV, etc.
 Bioinformatics:  NGS, Genomics, Transcriptomics, etc.
 
-Please don’t hesitate to contact me, Let’s Do Something Fantastic!
+Please don’t hesitate to contact me via 2272714210@qq.com, Let’s Do Something Fantastic!
 
     </summary>
   
