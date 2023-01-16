@@ -4,7 +4,7 @@
   <id>http://localhost:4000/me/</id>
   <title>Vincent</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-01-16T14:36:50+08:00</updated>
+  <updated>2023-01-16T14:40:48+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/me/</uri>
@@ -194,19 +194,8 @@ Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and th
 
 
 
-      Prerequisites
+      this is bully shit
 
-Follow the instructions in the Jekyll Docs to complete the installation of Ruby, RubyGems, Jekyll, and Bundler. In addition, Git is also required to be installed.
-
-Installation
-
-Creating a New Site
-
-There are two ways to create a new repository for this theme:
-
-
-  Using the Chirpy Starter - Easy to upgrade, isolates irrelevant project files so you can focus on writing.
-  Forking ...
     </summary>
   
 
