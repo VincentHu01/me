@@ -1,5 +1,15 @@
 ---
-title: lets do something fantastic
+title: Let's Do Something Fantastic
+categories:
+- Blogging
+- Technology
+- Intelligence
+- Bioinformatics
+author: vincent_hu
 ---
 
-lets do something fantastic
+Information tecnology:   Microservice, CI&CD, DevOps, Internet, etc.  
+Data Technology/Science:  Machine/Deep Learning, NLP, CV, etc.  
+Bioinformatics:  NGS, Genomics, Transcriptomics, etc.  
+
+###### Please don't hesitate to contact me, Let's Do Something Fantastic!
