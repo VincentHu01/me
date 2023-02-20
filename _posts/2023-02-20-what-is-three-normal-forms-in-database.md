@@ -2,8 +2,8 @@
 title: What is Three Normal Forms in Database?
 author: sille_bille
 categories:
-- Technology
 - Database
+- Technology
 ---
 
 1NF:  Atomity, that is, a single cell must not contain more than one value.
