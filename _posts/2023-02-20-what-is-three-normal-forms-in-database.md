@@ -6,6 +6,8 @@ categories:
 - Technology
 ---
 
+What is 3NF in database designing?
+
 1NF:  Atomity, that is, a single cell must not contain more than one value.
 
 2NF:  Correlation, that is, every non-primary attribute in each row must have relation to primary key.

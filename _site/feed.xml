@@ -4,7 +4,7 @@
   <id>http://localhost:4000/me/</id>
   <title>Vincent</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-02-20T14:04:27+08:00</updated>
+  <updated>2023-02-20T14:13:07+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/me/</uri>
@@ -48,7 +48,9 @@
 
 
 
-      1NF:  Atomity, that is, a single cell must not contain more than one value.
+      What is 3NF in database designing?
+
+1NF:  Atomity, that is, a single cell must not contain more than one value.
 
 2NF:  Correlation, that is, every non-primary attribute in each row must have relation to primary key.
 
