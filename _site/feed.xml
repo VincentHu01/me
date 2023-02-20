@@ -4,7 +4,7 @@
   <id>http://localhost:4000/me/</id>
   <title>Vincent</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-02-20T14:13:07+08:00</updated>
+  <updated>2023-02-20T14:15:57+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/me/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/me/posts/what-is-three-normal-forms-in-database/" rel="alternate" type="text/html" title="What is Three Normal Forms in Database?" />
     <published>2023-02-20T00:00:00+08:00</published>
   
-    <updated>2023-02-20T14:02:07+08:00</updated>
+    <updated>2023-02-20T14:13:28+08:00</updated>
   
     <id>http://localhost:4000/me/posts/what-is-three-normal-forms-in-database/</id>
     <content src="http://localhost:4000/me/posts/what-is-three-normal-forms-in-database/" />
