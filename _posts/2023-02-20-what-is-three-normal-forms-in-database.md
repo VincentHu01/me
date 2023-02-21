@@ -13,3 +13,5 @@ What are 3NFs in database designing?
 2NF:  Correlation, that is, every non-primary attribute in each row must have relation to primary key.
 
 3NF: Direct, that is, the relation in 2NF must be direct.
+
+Do they look like Newton's three laws?
