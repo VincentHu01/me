@@ -1,12 +1,12 @@
 ---
-title: What is Three Normal Forms in Database?
+title: What are Three Normal Forms in Database Designing?
 author: sille_bille
 categories:
 - Database
 - Technology
 ---
 
-What is 3NF in database designing?
+What are 3NFs in database designing?
 
 1NF:  Atomity, that is, a single cell must not contain more than one value.
 

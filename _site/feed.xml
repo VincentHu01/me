@@ -4,7 +4,7 @@
   <id>http://localhost:4000/me/</id>
   <title>Vincent</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-02-20T14:37:43+08:00</updated>
+  <updated>2023-02-21T19:38:02+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/me/</uri>
@@ -20,8 +20,8 @@
 
   
   <entry>
-    <title>What is Three Normal Forms in Database?</title>
-    <link href="http://localhost:4000/me/posts/what-is-three-normal-forms-in-database/" rel="alternate" type="text/html" title="What is Three Normal Forms in Database?" />
+    <title>What are Three Normal Forms in Database Designing?</title>
+    <link href="http://localhost:4000/me/posts/what-is-three-normal-forms-in-database/" rel="alternate" type="text/html" title="What are Three Normal Forms in Database Designing?" />
     <published>2023-02-20T00:00:00+08:00</published>
   
     <updated>2023-02-20T14:13:28+08:00</updated>
@@ -48,7 +48,7 @@
 
 
 
-      What is 3NF in database designing?
+      What are 3NFs in database designing?
 
 1NF:  Atomity, that is, a single cell must not contain more than one value.
 
