@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://vincenthu01.github.io/me/</id>
+  <id>http://localhost:4000/me/</id>
   <title>Vincent</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-03-09T17:22:50+08:00</updated>
+  <updated>2023-03-09T17:31:38+08:00</updated>
   <author>
     <name>your_full_name</name>
-    <uri>https://vincenthu01.github.io/me/</uri>
+    <uri>http://localhost:4000/me/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://vincenthu01.github.io/me/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/me/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="https://vincenthu01.github.io/me/"/>
+    href="http://localhost:4000/me/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <rights> © 2023 your_full_name </rights>
   <icon>/me/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Time Complexity of Collections</title>
-    <link href="https://vincenthu01.github.io/me/posts/time-complexities-of-data-structures-and-algorithms/" rel="alternate" type="text/html" title="Time Complexity of Collections" />
+    <link href="http://localhost:4000/me/posts/time-complexities-of-data-structures-and-algorithms/" rel="alternate" type="text/html" title="Time Complexity of Collections" />
     <published>2023-03-09T00:00:00+08:00</published>
   
     <updated>2023-03-09T00:00:00+08:00</updated>
   
-    <id>https://vincenthu01.github.io/me/posts/time-complexities-of-data-structures-and-algorithms/</id>
-    <content src="https://vincenthu01.github.io/me/posts/time-complexities-of-data-structures-and-algorithms/" />
+    <id>http://localhost:4000/me/posts/time-complexities-of-data-structures-and-algorithms/</id>
+    <content src="http://localhost:4000/me/posts/time-complexities-of-data-structures-and-algorithms/" />
     <author>
       <name>sille_bille</name>
     </author>
@@ -95,13 +95,13 @@
   
   <entry>
     <title>What are Three Normal Forms in Database Designing?</title>
-    <link href="https://vincenthu01.github.io/me/posts/what-is-three-normal-forms-in-database/" rel="alternate" type="text/html" title="What are Three Normal Forms in Database Designing?" />
+    <link href="http://localhost:4000/me/posts/what-is-three-normal-forms-in-database/" rel="alternate" type="text/html" title="What are Three Normal Forms in Database Designing?" />
     <published>2023-02-20T00:00:00+08:00</published>
   
     <updated>2023-02-21T22:06:46+08:00</updated>
   
-    <id>https://vincenthu01.github.io/me/posts/what-is-three-normal-forms-in-database/</id>
-    <content src="https://vincenthu01.github.io/me/posts/what-is-three-normal-forms-in-database/" />
+    <id>http://localhost:4000/me/posts/what-is-three-normal-forms-in-database/</id>
+    <content src="http://localhost:4000/me/posts/what-is-three-normal-forms-in-database/" />
     <author>
       <name>sille_bille</name>
     </author>
@@ -140,13 +140,13 @@ Do they look like Newton’s three laws?
   
   <entry>
     <title>Let's Do Something Fantastic</title>
-    <link href="https://vincenthu01.github.io/me/posts/lets-do-something-fantastic/" rel="alternate" type="text/html" title="Let's Do Something Fantastic" />
+    <link href="http://localhost:4000/me/posts/lets-do-something-fantastic/" rel="alternate" type="text/html" title="Let's Do Something Fantastic" />
     <published>2023-01-16T00:00:00+08:00</published>
   
     <updated>2023-01-16T23:12:37+08:00</updated>
   
-    <id>https://vincenthu01.github.io/me/posts/lets-do-something-fantastic/</id>
-    <content src="https://vincenthu01.github.io/me/posts/lets-do-something-fantastic/" />
+    <id>http://localhost:4000/me/posts/lets-do-something-fantastic/</id>
+    <content src="http://localhost:4000/me/posts/lets-do-something-fantastic/" />
     <author>
       <name>sille_bille</name>
     </author>
@@ -186,13 +186,13 @@ Let’s Do Something Fantastic!
   
   <entry>
     <title>Enable Google Page Views</title>
-    <link href="https://vincenthu01.github.io/me/posts/enable-google-pv/" rel="alternate" type="text/html" title="Enable Google Page Views" />
+    <link href="http://localhost:4000/me/posts/enable-google-pv/" rel="alternate" type="text/html" title="Enable Google Page Views" />
     <published>2021-01-04T07:32:00+08:00</published>
   
     <updated>2023-01-16T23:09:27+08:00</updated>
   
-    <id>https://vincenthu01.github.io/me/posts/enable-google-pv/</id>
-    <content src="https://vincenthu01.github.io/me/posts/enable-google-pv/" />
+    <id>http://localhost:4000/me/posts/enable-google-pv/</id>
+    <content src="http://localhost:4000/me/posts/enable-google-pv/" />
     <author>
       <name>your_full_name</name>
     </author>
