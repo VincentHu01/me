@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Time Complexities of Collections",
+    "url": "/me/posts/time-complexities-of-data-structures-and-algorithms/",
+    "categories": "Technology, Collections",
+    "tags": "",
+    "date": "2023-03-09 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "Here we only focus on average time complexity when you are searching or inserting with certain collection.            Data Structure      search ATC      insert ATC                  Array      O(N)...",
+    "content": "Here we only focus on average time complexity when you are searching or inserting with certain collection.            Data Structure      search ATC      insert ATC                  Array      O(N)      O(N)                  List      O(N)      O(1)                  Queue      O(N)      O(1)                  Stack      O(N)      O(1)                  Hash Map      O(1)      O(1)                  Binary Tree      O(log N)      O(log N)      Anything you want to add on?"
+  },
+  
+  {
     "title": "What are Three Normal Forms in Database Designing?",
     "url": "/me/posts/what-is-three-normal-forms-in-database/",
     "categories": "Database, Technology",

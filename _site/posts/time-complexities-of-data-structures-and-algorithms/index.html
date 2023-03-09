@@ -23,6 +23,12 @@
 
   
 
+    
+
+    
+
+  
+
   
 
   
@@ -30,25 +36,27 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.1" />
-<meta property="og:title" content="About" />
+<meta property="og:title" content="Time Complexities of Collections" />
+<meta name="author" content="Vincent Hu" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Add Markdown syntax content to file _tabs/about.md and it will show up on this page." />
-<meta property="og:description" content="Add Markdown syntax content to file _tabs/about.md and it will show up on this page." />
-<link rel="canonical" href="https://vincenthu01.github.io/me/about/" />
-<meta property="og:url" content="https://vincenthu01.github.io/me/about/" />
+<meta name="description" content="Here we only focus on average time complexity when you are searching or inserting with certain collection." />
+<meta property="og:description" content="Here we only focus on average time complexity when you are searching or inserting with certain collection." />
+<link rel="canonical" href="https://vincenthu01.github.io/me/posts/time-complexities-of-data-structures-and-algorithms/" />
+<meta property="og:url" content="https://vincenthu01.github.io/me/posts/time-complexities-of-data-structures-and-algorithms/" />
 <meta property="og:site_name" content="Vincent" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-03-09T16:36:40+08:00" />
+<meta property="article:published_time" content="2023-03-09T00:00:00+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="About" />
+<meta property="twitter:title" content="Time Complexities of Collections" />
 <meta name="twitter:site" content="@twitter_username" />
+<meta name="twitter:creator" content="@Vincent Hu" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","dateModified":"2023-03-09T16:36:40+08:00","datePublished":"2023-03-09T16:36:40+08:00","description":"Add Markdown syntax content to file _tabs/about.md and it will show up on this page.","headline":"About","name":"your_full_name","sameAs":["https://twitter.com/username","https://github.com/username"],"url":"https://vincenthu01.github.io/me/about/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Vincent Hu","url":"https://github.com/VincentHu01/"},"dateModified":"2023-03-09T00:00:00+08:00","datePublished":"2023-03-09T00:00:00+08:00","description":"Here we only focus on average time complexity when you are searching or inserting with certain collection.","headline":"Time Complexities of Collections","mainEntityOfPage":{"@type":"WebPage","@id":"https://vincenthu01.github.io/me/posts/time-complexities-of-data-structures-and-algorithms/"},"url":"https://vincenthu01.github.io/me/posts/time-complexities-of-data-structures-and-algorithms/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>About | Vincent
+  <title>Time Complexities of Collections | Vincent
   </title>
 
   <!--
@@ -101,6 +109,8 @@
 
   <link rel="stylesheet" href="/me/assets/css/style.css">
 
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.css">
   
 
   
@@ -300,7 +310,7 @@
       </a>
     </li> <!-- .nav-item -->
     
-    <li class="nav-item active">
+    <li class="nav-item">
       <a href="/me/about/" class="nav-link">
         <i class="fa-fw fas fa-info-circle ml-xl-3 mr-xl-3 unloaded"></i>
         
@@ -434,8 +444,12 @@
 
         
 
+      
+
+        
+
           
-            <span>About</span>
+            <span>Time Complexities of Collections</span>
           
 
         
@@ -449,7 +463,7 @@
     <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i>
 
     <div id="topbar-title">
-      About
+      Post
     </div>
 
     <i id="search-trigger" class="fas fa-search fa-fw"></i>
@@ -482,12 +496,6 @@
 
     
       
-      
-      <h1 class="dynamic-title">
-        About
-      </h1>
-      <div class="post-content">
-        
       
         <!--
   Refactor the HTML structure.
@@ -560,52 +568,226 @@
 
 
 
-  
-  
-
-  
-
-    
-      
-      
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-        
-        
-
-    
-
-    
-    
-
-    
-
-  
-
-  
-
-
-
 <!-- return -->
 
-<blockquote class="prompt-tip"><div>
-  <p>Add Markdown syntax content to file <code class="language-plaintext filepath highlighter-rouge">_tabs/about.md</code> and it will show up on this page.</p>
-</div></blockquote>
+<h1 data-toc-skip>Time Complexities of Collections</h1>
+
+<div class="post-meta text-muted">
+    <!-- published date -->
+    <span>
+      Posted
+      <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class=""
+    data-ts="1678291200"
+    data-df="ll"
+    data-toggle="tooltip" data-placement="bottom">
+  Mar  9, 2023
+</em>
+
+    </span>
+
+    <!-- lastmod date -->
+    
+
+  
+
+  <div class="d-flex justify-content-between">
+    <!-- author(s) -->
+    <span>
+      
+
+      By
+
+      <em>
+      
+        
+          <a href="https://github.com/VincentHu01/">Vincent Hu</a>
+          
+        
+      
+      </em>
+    </span>
+
+    <div>
+      <!-- page views -->
+      
+
+      <!-- read time -->
+      <!--
+  Calculate the post's reading time, and display the word count in tooltip
+ -->
+
+
+
+<!-- words per minute  -->
+
+
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span class="readtime" data-toggle="tooltip" data-placement="bottom"
+  title="51 words">
+  <em>1 min</em> read</span>
+
+    </div>
+
+  </div> <!-- .d-flex -->
+
+</div> <!-- .post-meta -->
+
+<div class="post-content">
+  <p>Here we only focus on average time complexity when you are searching or inserting with certain collection.</p>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>Data Structure</th>
+      <th>search ATC</th>
+      <th>insert ATC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Array</td>
+      <td>O(N)</td>
+      <td>O(N)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>List</td>
+      <td>O(N)</td>
+      <td>O(1)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Queue</td>
+      <td>O(N)</td>
+      <td>O(1)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Stack</td>
+      <td>O(N)</td>
+      <td>O(1)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Hash Map</td>
+      <td>O(1)</td>
+      <td>O(1)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Binary Tree</td>
+      <td>O(log N)</td>
+      <td>O(log N)</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p>Anything you want to add on?</p>
+
+</div>
+
+<div class="post-tail-wrapper text-muted">
+
+  <!-- categories -->
+  
+  <div class="post-meta mb-3">
+    <i class="far fa-folder-open fa-fw mr-1"></i>
+    
+      <a href='/me/categories/technology/'>Technology</a>,
+      <a href='/me/categories/collections/'>Collections</a>
+  </div>
+  
+
+  <!-- tags -->
+  
+
+  <div class="post-tail-bottom
+    d-flex justify-content-between align-items-center mt-3 pt-5 pb-2">
+    <div class="license-wrapper">
+
+      
+
+        
+
+        This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+
+      
+    </div>
+
+    <!--
+ Post sharing snippet
+-->
+
+<div class="share-wrapper">
+  <span class="share-label text-muted mr-1">Share</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+      
+        <a href="https://twitter.com/intent/tweet?text=Time%20Complexities%20of%20Collections%20-%20Vincent&url=https%3A%2F%2Fvincenthu01.github.io%2Fme%2Fposts%2Ftime-complexities-of-data-structures-and-algorithms%2F" data-toggle="tooltip" data-placement="top"
+          title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
+          <i class="fa-fw fab fa-twitter"></i>
+        </a>
+    
+      
+        <a href="https://www.facebook.com/sharer/sharer.php?title=Time%20Complexities%20of%20Collections%20-%20Vincent&u=https%3A%2F%2Fvincenthu01.github.io%2Fme%2Fposts%2Ftime-complexities-of-data-structures-and-algorithms%2F" data-toggle="tooltip" data-placement="top"
+          title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
+          <i class="fa-fw fab fa-facebook-square"></i>
+        </a>
+    
+      
+        <a href="https://t.me/share/url?url=https%3A%2F%2Fvincenthu01.github.io%2Fme%2Fposts%2Ftime-complexities-of-data-structures-and-algorithms%2F&text=Time%20Complexities%20of%20Collections%20-%20Vincent" data-toggle="tooltip" data-placement="top"
+          title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
+          <i class="fa-fw fab fa-telegram"></i>
+        </a>
+    
+
+    <i id="copy-link" class="fa-fw fas fa-link small"
+        data-toggle="tooltip" data-placement="top"
+        title="Copy link"
+        data-title-succeed="Link copied successfully!">
+    </i>
+
+  </span>
+</div>
+
+
+  </div><!-- .post-tail-bottom -->
+
+</div><!-- div.post-tail-wrapper -->
 
 
       
     
-      </div>
     
 
     </div>
@@ -717,11 +899,283 @@
     </div>
 
     
+      
+      
+
+
+
+
+    
   </div>
 
 </div>
 
 <!-- tail -->
+
+<div class="row">
+  <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 pl-3 pr-3 pr-xl-4 mt-5">
+    
+      
+      <!--
+ Recommend the other 3 posts according to the tags and categories of the current post,
+ if the number is not enough, use the other latest posts to supplement.
+-->
+
+<!-- The total size of related posts  -->
+
+
+<!-- An random integer that bigger than 0  -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy}  -->
+
+
+
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+<!-- Fill with the other newlest posts  -->
+
+
+
+  
+    
+    
+  
+    
+    
+      
+      
+    
+  
+    
+    
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+          
+
+
+
+  <div id="related-posts" class="mb-2 mb-sm-4">
+    <h3 class="pt-2 mb-4 ml-1"
+      data-toc-skip>Further Reading</h3>
+    <div class="card-deck mb-4">
+    
+      
+      
+      <div class="card">
+        <a href="/me/posts/lets-do-something-fantastic/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1673798400"
+    data-df="ll"
+    >
+  Jan 16, 2023
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Let's Do Something Fantastic</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                Information tecnology:   Microservice, CI&amp;amp;CD, DevOps, Internet, etc.
+Data Technology/Science:  Machine/Deep Learning, NLP, CV, etc.
+Bioinformatics:  NGS, Genomics, Transcriptomics, etc.
+
+Please...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/me/posts/what-is-three-normal-forms-in-database/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1676822400"
+    data-df="ll"
+    >
+  Feb 20, 2023
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>What are Three Normal Forms in Database Designing?</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                What are 3NFs in database designing?
+
+1NF:  Atomity, that is, a single cell must not contain more than one value.
+
+2NF:  Correlation, that is, every non-primary attribute in each row must have rela...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/me/posts/enable-google-pv/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1609716720"
+    data-df="ll"
+    >
+  Jan  4, 2021
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Enable Google Page Views</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                
+  The content of this post applies only to Universal Analytics property (UA), not Google Analytics 4 (GA 4). In addition, since UA is about to be deprecated on Jul 1, 2023, the Page Views feature ...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+    </div> <!-- .card-deck -->
+  </div> <!-- #related-posts -->
+
+
+    
+      
+      <!--
+  Navigation buttons at the bottom of the post.
+-->
+
+<div class="post-navigation d-flex justify-content-between">
+  
+  <a href="/me/posts/what-is-three-normal-forms-in-database/" class="btn btn-outline-primary"
+    prompt="Older">
+    <p>What are Three Normal Forms in Database Designing?</p>
+  </a>
+  
+
+  
+  <div class="btn btn-outline-primary disabled"
+    prompt="Newer">
+    <p>-</p>
+  </div>
+  
+
+</div>
+
+    
+      
+      <!--  The comments switcher -->
+
+
+    
+  </div>
+</div>
 
 
       </div>
@@ -895,6 +1349,8 @@ SimpleJekyllSearch({
 <!-- layout specified -->
 
 
+  
+
 
 
   <!-- image lazy-loading & popup & clipboard -->
@@ -943,10 +1399,65 @@ SimpleJekyllSearch({
 
 
 
+  
+
+  
+
+  
 
 
 
-<script defer src="/me/assets/js/dist/page.min.js"></script>
+
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/dayjs@1.11.6/dayjs.min.js,npm/dayjs@1.11.6/locale/en.min.js,npm/dayjs@1.11.6/plugin/relativeTime.min.js,npm/dayjs@1.11.6/plugin/localizedFormat.min.js"></script>
+
+
+
+
+
+
+
+
+<script defer src="/me/assets/js/dist/post.min.js"></script>
 
 
 
