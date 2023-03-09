@@ -1,12 +1,12 @@
 ---
-title: Time Complexities of Collections
+title: Time Complexity of Collections
 author: sille_bille
 categories:
 - Technology
 - Collections
 ---
 
-Here we only focus on average time complexity when you are searching or inserting with certain collection. 
+Here we only talk about average time complexity of commonly used collections when you are searching or inserting with them. 
 
 
 | Data Structure | search ATC| insert ATC |

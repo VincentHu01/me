@@ -4,7 +4,7 @@
   <id>https://vincenthu01.github.io/me/</id>
   <title>Vincent</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-03-09T16:36:40+08:00</updated>
+  <updated>2023-03-09T17:22:50+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://vincenthu01.github.io/me/</uri>
@@ -20,8 +20,8 @@
 
   
   <entry>
-    <title>Time Complexities of Collections</title>
-    <link href="https://vincenthu01.github.io/me/posts/time-complexities-of-data-structures-and-algorithms/" rel="alternate" type="text/html" title="Time Complexities of Collections" />
+    <title>Time Complexity of Collections</title>
+    <link href="https://vincenthu01.github.io/me/posts/time-complexities-of-data-structures-and-algorithms/" rel="alternate" type="text/html" title="Time Complexity of Collections" />
     <published>2023-03-09T00:00:00+08:00</published>
   
     <updated>2023-03-09T00:00:00+08:00</updated>
@@ -48,7 +48,7 @@
 
 
 
-      Here we only focus on average time complexity when you are searching or inserting with certain collection.
+      Here we only talk about average time complexity of commonly used collections when you are searching or inserting with them.
 
 
   
@@ -86,9 +86,7 @@
       O(1)
     
   
-  
-    
-      Hash...
+ ...
     </summary>
   
 

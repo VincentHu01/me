@@ -1,7 +1,7 @@
 [
   
   {
-    "title": "Time Complexities of Collections",
+    "title": "Time Complexity of Collections",
     "url": "/me/posts/time-complexities-of-data-structures-and-algorithms/",
     "categories": "Technology, Collections",
     "tags": "",
@@ -13,8 +13,8 @@
 
 
     
-    "snippet": "Here we only focus on average time complexity when you are searching or inserting with certain collection.            Data Structure      search ATC      insert ATC                  Array      O(N)...",
-    "content": "Here we only focus on average time complexity when you are searching or inserting with certain collection.            Data Structure      search ATC      insert ATC                  Array      O(N)      O(N)                  List      O(N)      O(1)                  Queue      O(N)      O(1)                  Stack      O(N)      O(1)                  Hash Map      O(1)      O(1)                  Binary Tree      O(log N)      O(log N)      Anything you want to add on?"
+    "snippet": "Here we only talk about average time complexity of commonly used collections when you are searching or inserting with them.            Data Structure      search ATC      insert ATC                ...",
+    "content": "Here we only talk about average time complexity of commonly used collections when you are searching or inserting with them.            Data Structure      search ATC      insert ATC                  Array      O(N)      O(N)                  List      O(N)      O(1)                  Queue      O(N)      O(1)                  Stack      O(N)      O(1)                  Hash Map      O(1)      O(1)                  Binary Tree      O(log N)      O(log N)      Anything you want to add on?"
   },
   
   {
