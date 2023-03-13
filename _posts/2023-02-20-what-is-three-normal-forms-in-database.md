@@ -1,5 +1,5 @@
 ---
-title: What are Three Normal Forms in Database Designing?
+title: What Are Three Normal Forms in Database Designing?
 author: sille_bille
 categories:
 - Database
